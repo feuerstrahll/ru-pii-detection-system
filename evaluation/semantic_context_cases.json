@@ -1,0 +1,12 @@
+{
+  "research_question": "Does semantic context evidence reduce false positives for structurally valid numeric PII candidates without materially reducing recall?",
+  "entity_mapping": ["BANK_CARD", "ORG_REGISTRATION_ID", "TAX_ID", "PASSPORT"],
+  "documents": [
+    {"document_id": "ctx-card-1", "text": "Номер банковской карты: 4111 1111 1111 1111", "entities": [{"start": 24, "end": 43, "type": "BANK_CARD"}]},
+    {"document_id": "ctx-ogrn-1", "text": "ОГРН организации: 1157746789012", "entities": [{"start": 18, "end": 31, "type": "ORG_REGISTRATION_ID"}]},
+    {"document_id": "ctx-ogrnip-1", "text": "ОГРНИП предпринимателя: 305420717425070", "entities": [{"start": 24, "end": 39, "type": "ORG_REGISTRATION_ID"}]},
+    {"document_id": "ctx-inn-1", "text": "ИНН налогоплательщика: 7707083893", "entities": [{"start": 23, "end": 33, "type": "TAX_ID"}]},
+    {"document_id": "ctx-passport-1", "text": "Паспорт гражданина: 45 08 123456", "entities": [{"start": 20, "end": 32, "type": "PASSPORT"}]},
+    {"document_id": "ctx-order-1", "text": "Номер приказа: 4508123456", "entities": []}
+  ]
+}

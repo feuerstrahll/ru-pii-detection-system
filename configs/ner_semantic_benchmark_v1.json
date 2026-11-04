@@ -1,0 +1,11 @@
+{
+  "version": "ner_semantic_benchmark_v2",
+  "research_question": "Which pretrained semantic NER model provides the best quality-resource trade-off for PERSON and ADDRESS detection in Russian unstructured text?",
+  "validation_fraction": 0.2,
+  "device": "cpu",
+  "entity_mapping": ["PERSON", "ADDRESS"],
+  "candidates": [
+    {"id": "ru_pii_ner_gliner2_5", "adapter": "gliner2", "model_ref": "vladlinv/ru-pii-ner-gliner2.5", "label_mapping": {"ru_pii_person": "PERSON", "ru_pii_location": "ADDRESS"}, "threshold_grid": [0.3, 0.4, 0.5, 0.6, 0.7]},
+    {"id": "gliner_multi_v2_1", "adapter": "gliner", "model_ref": "urchade/gliner_multi-v2.1", "label_mapping": {"person": "PERSON", "address": "ADDRESS"}, "threshold_grid": [0.3, 0.4, 0.5, 0.6, 0.7]}
+  ]
+}

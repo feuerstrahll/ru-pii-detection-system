@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00610", "segments": [{"segment_id": "body", "text": "Адрес доставки: с. Сухиничи, алл. Болотная, д. 67, 159613"}], "entities": [{"segment_id": "body", "start": 16, "end": 57, "type": "ADDRESS"}]}

@@ -1,0 +1,30 @@
+{
+  "version": "deterministic_v3",
+  "enabled_entities": ["EMAIL", "PHONE", "SOCIAL_SECURITY_ID", "TAX_ID", "PASSPORT", "ORG_REGISTRATION_ID", "BANK_CARD", "KPP"],
+  "patterns": {
+    "EMAIL": "(?<![\\w.@+-])[A-Za-z0-9.!#$%&'*+/=?^_`{|}~-]+@[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?(?:\\.[A-Za-z0-9](?:[A-Za-z0-9-]{0,61}[A-Za-z0-9])?)+(?![\\w@+-])",
+    "PHONE": "(?<!\\d)(?:\\+7|8)[\\s()\\-]*\\d{3}[\\s()\\-]*\\d{3}[\\s\\-]*\\d{2}[\\s\\-]*\\d{2}(?!\\d)",
+    "SOCIAL_SECURITY_ID": "\\b\\d{3}-\\d{3}-\\d{3}[\\s-]?\\d{2}\\b|\\b\\d{11}\\b",
+    "TAX_ID": "\\b\\d{10}\\b|\\b\\d{12}\\b",
+    "PASSPORT": "\\b(?:\\d{2}\\s?\\d{2})\\s?\\d{6}\\b",
+    "ORG_REGISTRATION_ID": "\\b\\d{13}\\b|\\b\\d{15}\\b",
+    "BANK_CARD": "\\b(?:\\d[ -]?){12,18}\\d\\b",
+    "KPP": "\\b\\d{9}\\b"
+  },
+  "context_terms": {
+    "PHONE": ["тел", "телефон", "phone", "mobile", "моб"],
+    "SOCIAL_SECURITY_ID": ["снилс"], "TAX_ID": ["инн", "inn"],
+    "PASSPORT": ["паспорт", "серия", "выдан"], "ORG_REGISTRATION_ID": ["огрн", "огрнип"],
+    "BANK_CARD": ["карта", "card", "visa", "mastercard"], "KPP": ["кпп"]
+  },
+  "conflicting_context_terms": {},
+  "context_window_characters": 64,
+  "conflict_decisions": {"BANK_CARD": {"identifier_overlap_ogrn_card": "reject"}},
+  "engineered_scoring": {
+    "contributions": {"regex_candidate": 0.35, "format_valid": 0.20, "email_format_valid": 0.40, "passport_format_valid": 0.10, "checksum_valid": 0.25, "strong_context": 0.25, "ner_agreement": 0.20, "conflicting_context": -0.30, "identifier_overlap": -0.60, "low_ocr_confidence": -0.15},
+    "strong_context_max_distance": 32, "ocr_confidence_threshold": 0.80,
+    "accept_threshold": 0.75, "review_threshold": 0.40,
+    "require_context_for": ["PHONE", "SOCIAL_SECURITY_ID", "TAX_ID", "PASSPORT", "ORG_REGISTRATION_ID", "BANK_CARD", "KPP"],
+    "force_review_statuses": ["format_valid_checksum_unverifiable"]
+  }
+}

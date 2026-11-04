@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00841", "segments": [{"segment_id": "body", "text": "Адрес доставки: п. Середниково, алл. Энергетиков, д. 261 стр. 807, 885042"}], "entities": [{"segment_id": "body", "start": 16, "end": 73, "type": "ADDRESS"}]}

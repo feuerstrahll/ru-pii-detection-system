@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01135", "segments": [{"segment_id": "body", "text": "Адрес доставки: д. Шатой, алл. Мельничная, д. 10 стр. 782, 434413"}], "entities": [{"segment_id": "body", "start": 16, "end": 65, "type": "ADDRESS"}]}

@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01219", "segments": [{"segment_id": "body", "text": "Адрес доставки: д. Уварово, ул. Лесозаводская, д. 6 стр. 9/8, 314838"}], "entities": [{"segment_id": "body", "start": 16, "end": 68, "type": "ADDRESS"}]}

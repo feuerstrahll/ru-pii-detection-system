@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01954", "segments": [{"segment_id": "body", "text": "Адрес доставки: ст. Томпа, ш. Водопроводное, д. 1/4, 805463"}], "entities": [{"segment_id": "body", "start": 16, "end": 59, "type": "ADDRESS"}]}

@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00421", "segments": [{"segment_id": "body", "text": "Адрес доставки: клх Каменск-Шахтинский, наб. Терешковой, д. 8/7 стр. 710, 299413"}], "entities": [{"segment_id": "body", "start": 16, "end": 80, "type": "ADDRESS"}]}

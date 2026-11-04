@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01597", "segments": [{"segment_id": "body", "text": "Адрес доставки: д. Пышма, ул. Средняя, д. 6/6 к. 1/3, 355527"}], "entities": [{"segment_id": "body", "start": 16, "end": 60, "type": "ADDRESS"}]}

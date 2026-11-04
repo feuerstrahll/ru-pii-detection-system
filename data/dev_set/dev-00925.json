@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00925", "segments": [{"segment_id": "body", "text": "Адрес доставки: г. Элиста, пер. Жданова, д. 5, 135145"}], "entities": [{"segment_id": "body", "start": 16, "end": 53, "type": "ADDRESS"}]}

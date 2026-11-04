@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00505", "segments": [{"segment_id": "body", "text": "Адрес доставки: г. Добрянка, ул. Угловая, д. 2, 948455"}], "entities": [{"segment_id": "body", "start": 16, "end": 54, "type": "ADDRESS"}]}

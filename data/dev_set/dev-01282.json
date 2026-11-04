@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01282", "segments": [{"segment_id": "body", "text": "Адрес доставки: с. Барнаул, пр. Тукая, д. 361 стр. 1, 758175"}], "entities": [{"segment_id": "body", "start": 16, "end": 60, "type": "ADDRESS"}]}

@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01534", "segments": [{"segment_id": "body", "text": "Адрес доставки: с. Карпинск, ш. Павлика Морозова, д. 444 стр. 9, 405527"}], "entities": [{"segment_id": "body", "start": 16, "end": 71, "type": "ADDRESS"}]}

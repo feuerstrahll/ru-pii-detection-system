@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01244", "segments": [{"segment_id": "body", "text": "ИНН: 6303433678"}], "entities": [{"segment_id": "body", "start": 5, "end": 15, "type": "TAX_ID"}]}

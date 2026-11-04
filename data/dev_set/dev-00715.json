@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00715", "segments": [{"segment_id": "body", "text": "Адрес доставки: п. Яшкуль, наб. Дружбы, д. 7/4 стр. 8/8, 067745"}], "entities": [{"segment_id": "body", "start": 16, "end": 63, "type": "ADDRESS"}]}

@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00757", "segments": [{"segment_id": "body", "text": "Адрес доставки: с. Токма, бул. Физкультурный, д. 2 к. 4, 245757"}], "entities": [{"segment_id": "body", "start": 16, "end": 63, "type": "ADDRESS"}]}

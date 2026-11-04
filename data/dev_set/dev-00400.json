@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00400", "segments": [{"segment_id": "body", "text": "Адрес доставки: клх Сосьва (Хант.), бул. Войкова, д. 457, 930829"}], "entities": [{"segment_id": "body", "start": 16, "end": 64, "type": "ADDRESS"}]}

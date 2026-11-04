@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00105", "segments": [{"segment_id": "body", "text": "Сотрудник Ян Гавриилович Петухов"}], "entities": [{"segment_id": "body", "start": 10, "end": 32, "type": "PERSON"}]}

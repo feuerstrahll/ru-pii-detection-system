@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01996", "segments": [{"segment_id": "body", "text": "Адрес доставки: к. Псебай, пр. Балтийский, д. 1, 310385"}], "entities": [{"segment_id": "body", "start": 16, "end": 55, "type": "ADDRESS"}]}

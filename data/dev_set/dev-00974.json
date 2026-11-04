@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00974", "segments": [{"segment_id": "body", "text": "Карта: 0262 6023 8228 7353 активна"}], "entities": [{"segment_id": "body", "start": 7, "end": 26, "type": "BANK_CARD"}]}

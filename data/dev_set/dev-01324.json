@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01324", "segments": [{"segment_id": "body", "text": "Адрес доставки: с. Усть-Ордынский, бул. Коллективный, д. 47 к. 18, 052792"}], "entities": [{"segment_id": "body", "start": 16, "end": 73, "type": "ADDRESS"}]}

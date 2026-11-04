@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01270", "segments": [{"segment_id": "body", "text": "Код CVC для карты: 257"}], "entities": [{"segment_id": "body", "start": 19, "end": 22, "type": "CVC"}]}

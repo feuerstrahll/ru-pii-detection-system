@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01744", "segments": [{"segment_id": "body", "text": "Адрес доставки: п. Долинск, алл. Звездная, д. 929 к. 114, 663913"}], "entities": [{"segment_id": "body", "start": 16, "end": 64, "type": "ADDRESS"}]}

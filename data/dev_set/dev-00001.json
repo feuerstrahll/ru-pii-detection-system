@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00001", "segments": [{"segment_id": "body", "text": "Адрес доставки: ст. Луга, алл. Мельничная, д. 5/9 к. 9, 877428"}], "entities": [{"segment_id": "body", "start": 16, "end": 62, "type": "ADDRESS"}]}

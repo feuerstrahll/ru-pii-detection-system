@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00148", "segments": [{"segment_id": "body", "text": "Адрес доставки: г. Уфа, ул. Вишневая, д. 7/1 стр. 3, 503375"}], "entities": [{"segment_id": "body", "start": 16, "end": 59, "type": "ADDRESS"}]}

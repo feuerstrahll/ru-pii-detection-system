@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00654", "segments": [{"segment_id": "body", "text": "Телефон: 8 065 327 9715"}], "entities": [{"segment_id": "body", "start": 9, "end": 23, "type": "PHONE"}]}

@@ -1,0 +1,15 @@
+{
+  "dark_days": 365,
+  "retention_days_by_category": {},
+  "currency": "RUB",
+  "cost_per_gib_month": null,
+  "kwh_per_gib_month": null,
+  "archive_cost_fraction": 1.0,
+  "archive_energy_fraction": 1.0,
+  "index_weights": {
+    "duplicate_byte_share": 0.25,
+    "dark_document_share": 0.25,
+    "missing_metadata_share": 0.25,
+    "retention_exceeded_share": 0.25
+  }
+}

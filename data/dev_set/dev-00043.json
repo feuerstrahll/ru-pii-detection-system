@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00043", "segments": [{"segment_id": "body", "text": "Адрес доставки: д. Обнинск, пер. Кузнечный, д. 9/6 стр. 58, 871934"}], "entities": [{"segment_id": "body", "start": 16, "end": 66, "type": "ADDRESS"}]}

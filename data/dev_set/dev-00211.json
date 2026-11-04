@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00211", "segments": [{"segment_id": "body", "text": "Адрес доставки: г. Москва, ул. Пригородная, д. 61 стр. 4/4, 377157"}], "entities": [{"segment_id": "body", "start": 16, "end": 66, "type": "ADDRESS"}]}

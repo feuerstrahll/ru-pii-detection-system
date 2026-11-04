@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01429", "segments": [{"segment_id": "body", "text": "Адрес доставки: ст. Белый Яр (Томск.), пр. Иркутский, д. 2/6 стр. 6, 813484"}], "entities": [{"segment_id": "body", "start": 16, "end": 75, "type": "ADDRESS"}]}

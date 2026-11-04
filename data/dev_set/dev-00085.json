@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00085", "segments": [{"segment_id": "body", "text": "Адрес доставки: г. Сусуман, наб. Ангарская, д. 28 к. 41, 262506"}], "entities": [{"segment_id": "body", "start": 16, "end": 63, "type": "ADDRESS"}]}

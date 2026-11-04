@@ -1,0 +1,41 @@
+{
+  "source_label_counts": {
+    "BIRTH_CERTIFICATE": 341,
+    "CITY": 339,
+    "COUNTRY": 242,
+    "CREDIT_CARD": 203,
+    "DISTRICT": 161,
+    "DRIVER_LICENSE": 371,
+    "EMAIL": 221,
+    "FIRST_NAME": 499,
+    "HOUSE": 163,
+    "INN": 263,
+    "IP_ADDRESS": 155,
+    "LAST_NAME": 457,
+    "MIDDLE_NAME": 308,
+    "MILITARY_ID": 278,
+    "OMS": 170,
+    "PASSPORT": 494,
+    "PHONE": 173,
+    "REGION": 176,
+    "SNILS": 223,
+    "STREET": 171,
+    "URL": 206
+  },
+  "source_label_count": 21,
+  "source_mentions": 5614,
+  "comparable_source_mentions": 2841,
+  "comparable_source_fraction": 0.5060562878517991,
+  "excluded_source_mentions": 2773,
+  "ambiguous_location_mentions": 1252,
+  "unsupported_mentions": 1521,
+  "comparable_gold_spans_after_person_merge": 2263,
+  "dev_duplicate_row_count": 0,
+  "excluded_dev_duplicate_rows": [],
+  "evaluated_rows": 2841,
+  "unscored_predictions_by_type": {
+    "KPP": 25,
+    "ORG_REGISTRATION_ID": 3
+  },
+  "unscored_predictions": 28
+}

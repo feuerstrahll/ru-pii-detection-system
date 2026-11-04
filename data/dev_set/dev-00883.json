@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00883", "segments": [{"segment_id": "body", "text": "Адрес доставки: клх Ачхой Мартан, ш. Заовражное, д. 5/9, 269293"}], "entities": [{"segment_id": "body", "start": 16, "end": 63, "type": "ADDRESS"}]}

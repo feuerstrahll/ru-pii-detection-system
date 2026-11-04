@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00673", "segments": [{"segment_id": "body", "text": "Адрес доставки: п. Далматово, ш. Инженерное, д. 25 к. 45, 045860"}], "entities": [{"segment_id": "body", "start": 16, "end": 64, "type": "ADDRESS"}]}

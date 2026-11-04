@@ -1,0 +1,14 @@
+{
+  "experiment": "NEREL-PERSON-01",
+  "dataset_repo": "nerel-ds/NEREL",
+  "dataset_commit": "8f07d3e410f322d5dbf6b68b13fbf4a4aa077fe9",
+  "dataset_version": "1.1",
+  "split": "test",
+  "manifest_sha256": "56f5000fd867baa1f254b7a08c433482a9125956b2b3607f8e6cb335e3786095",
+  "dev_dir": "data/dev_set",
+  "semantic_config": "configs/semantic_person_frozen_v2.json",
+  "semantic_config_sha256": "564b7434437cbbee5dc70c80102616993b8d299570bbf2f10c68d9e58673a53d",
+  "chunk_words": 384,
+  "chunk_overlap_words": 64,
+  "entity_type": "PERSON"
+}

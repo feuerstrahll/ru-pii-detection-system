@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00547", "segments": [{"segment_id": "body", "text": "Адрес доставки: ст. Выборг, ул. Осенняя, д. 7 к. 818, 016610"}], "entities": [{"segment_id": "body", "start": 16, "end": 60, "type": "ADDRESS"}]}

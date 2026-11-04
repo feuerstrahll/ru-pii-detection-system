@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01576", "segments": [{"segment_id": "body", "text": "Адрес доставки: п. Галич, бул. Новый, д. 6 стр. 124, 566838"}], "entities": [{"segment_id": "body", "start": 16, "end": 59, "type": "ADDRESS"}]}

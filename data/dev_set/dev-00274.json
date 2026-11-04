@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00274", "segments": [{"segment_id": "body", "text": "Адрес доставки: п. Печенга, пр. Плеханова, д. 5/5, 317291"}], "entities": [{"segment_id": "body", "start": 16, "end": 57, "type": "ADDRESS"}]}

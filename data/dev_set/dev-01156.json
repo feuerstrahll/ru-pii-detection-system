@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01156", "segments": [{"segment_id": "body", "text": "Адрес доставки: ст. Жуковский, ш. Шевченко, д. 3/6 к. 9, 186146"}], "entities": [{"segment_id": "body", "start": 16, "end": 63, "type": "ADDRESS"}]}

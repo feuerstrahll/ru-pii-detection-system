@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00484", "segments": [{"segment_id": "body", "text": "Адрес доставки: г. Моздок, пер. Брянский, д. 2/2 к. 68, 456953"}], "entities": [{"segment_id": "body", "start": 16, "end": 62, "type": "ADDRESS"}]}

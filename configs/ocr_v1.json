@@ -1,0 +1,7 @@
+{
+  "version": "ocr_v1",
+  "dpi": 300,
+  "language": "rus+eng",
+  "low_confidence_threshold": 0.8,
+  "tesseract_config": ""
+}

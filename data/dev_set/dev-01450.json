@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01450", "segments": [{"segment_id": "body", "text": "Адрес доставки: д. Кондопога, бул. Портовый, д. 2/7, 510163"}], "entities": [{"segment_id": "body", "start": 16, "end": 59, "type": "ADDRESS"}]}

@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00463", "segments": [{"segment_id": "body", "text": "Адрес доставки: к. Прохладный, пер. Маркса Карла, д. 7 к. 2/8, 197019"}], "entities": [{"segment_id": "body", "start": 16, "end": 69, "type": "ADDRESS"}]}

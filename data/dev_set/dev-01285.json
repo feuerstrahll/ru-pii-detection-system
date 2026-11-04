@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01285", "segments": [{"segment_id": "body", "text": "СНИЛС: 783-891-721 69"}], "entities": [{"segment_id": "body", "start": 7, "end": 21, "type": "SOCIAL_SECURITY_ID"}]}

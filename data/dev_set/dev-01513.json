@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01513", "segments": [{"segment_id": "body", "text": "Адрес доставки: с. Каменск-Уральский, ул. Кирпичная, д. 86, 555898"}], "entities": [{"segment_id": "body", "start": 16, "end": 66, "type": "ADDRESS"}]}

@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01723", "segments": [{"segment_id": "body", "text": "Адрес доставки: г. Жуковский, пер. Гафури, д. 3/9, 437659"}], "entities": [{"segment_id": "body", "start": 16, "end": 57, "type": "ADDRESS"}]}

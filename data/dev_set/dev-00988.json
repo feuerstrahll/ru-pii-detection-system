@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00988", "segments": [{"segment_id": "body", "text": "Адрес доставки: г. Омск, ш. Революции, д. 52, 626282"}], "entities": [{"segment_id": "body", "start": 16, "end": 52, "type": "ADDRESS"}]}

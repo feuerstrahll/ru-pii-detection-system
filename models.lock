@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "device": "cpu",
+  "candidates": [
+    {
+      "id": "spacy_ru_core_news_lg",
+      "model_name": "ru_core_news_lg",
+      "source": "spaCy model registry",
+      "revision": null,
+      "tokenizer_revision": null,
+      "framework": "spaCy",
+      "label_mapping": {
+        "PER": "PERSON"
+      },
+      "local_snapshot": "models/ner/spacy_ru_core_news_lg",
+      "snapshot_sha256": null,
+      "status": "pending_snapshot"
+    },
+    {
+      "id": "hf_ru_legal_ner",
+      "model_name": "LLAIMlegal/ru-legal-ner",
+      "source": "Hugging Face",
+      "revision": null,
+      "tokenizer_revision": null,
+      "framework": "transformers",
+      "label_mapping": {
+        "PER": "PERSON",
+        "ADDRESS": "ADDRESS"
+      },
+      "local_snapshot": "models/ner/hf_ru_legal_ner",
+      "snapshot_sha256": null,
+      "status": "pending_snapshot"
+    },
+    {
+      "id": "ru_pii_ner_gliner2_5",
+      "model_name": "vladlinv/ru-pii-ner-gliner2.5",
+      "source": "Hugging Face",
+      "revision": "7a410193d83373e61d029944aac77ae47ffb5d9a",
+      "tokenizer_revision": "7a410193d83373e61d029944aac77ae47ffb5d9a",
+      "framework": "gliner2",
+      "label_mapping": {
+        "ru_pii_person": "PERSON",
+        "ru_pii_location": "ADDRESS"
+      },
+      "local_snapshot": "models/ner/ru_pii_ner_gliner2_5",
+      "snapshot_sha256": "48238a57dd048f6e00b157684fc84c0dd35a8dec22b32a588084d260cd66a293",
+      "status": "ready"
+    },
+    {
+      "id": "gliner_multi_v2_1",
+      "model_name": "urchade/gliner_multi-v2.1",
+      "source": "Hugging Face",
+      "revision": null,
+      "tokenizer_revision": null,
+      "framework": "gliner",
+      "label_mapping": {
+        "person": "PERSON",
+        "address": "ADDRESS"
+      },
+      "local_snapshot": "models/ner/gliner_multi_v2_1",
+      "snapshot_sha256": null,
+      "status": "pending_snapshot"
+    }
+  ]
+}

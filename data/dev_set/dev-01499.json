@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01499", "segments": [{"segment_id": "body", "text": "Карта: 4855 5893 8636 9938 активна"}], "entities": [{"segment_id": "body", "start": 7, "end": 26, "type": "BANK_CARD"}]}

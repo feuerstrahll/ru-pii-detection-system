@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01471", "segments": [{"segment_id": "body", "text": "Адрес доставки: д. Мичуринск, пр. Медицинский, д. 8, 049570"}], "entities": [{"segment_id": "body", "start": 16, "end": 59, "type": "ADDRESS"}]}

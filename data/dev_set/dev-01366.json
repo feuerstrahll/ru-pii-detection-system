@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01366", "segments": [{"segment_id": "body", "text": "Адрес доставки: к. Нижний Тагил, бул. Лесозаводский, д. 44, 768649"}], "entities": [{"segment_id": "body", "start": 16, "end": 66, "type": "ADDRESS"}]}

@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01975", "segments": [{"segment_id": "body", "text": "Адрес доставки: ст. Сковородино, алл. Карбышева, д. 5/1, 420400"}], "entities": [{"segment_id": "body", "start": 16, "end": 63, "type": "ADDRESS"}]}

@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00295", "segments": [{"segment_id": "body", "text": "Адрес доставки: п. Троицк (Челяб.), ш. Комарова, д. 702 к. 3/4, 847241"}], "entities": [{"segment_id": "body", "start": 16, "end": 70, "type": "ADDRESS"}]}

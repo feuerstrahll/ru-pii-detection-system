@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01051", "segments": [{"segment_id": "body", "text": "Адрес доставки: г. Терскол, ул. Луначарского, д. 58 стр. 35, 387234"}], "entities": [{"segment_id": "body", "start": 16, "end": 67, "type": "ADDRESS"}]}

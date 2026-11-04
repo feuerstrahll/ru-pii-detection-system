@@ -1,0 +1,13 @@
+{
+  "version": "semantic_person_frozen_v2",
+  "candidate_id": "ru_pii_ner_gliner2_5",
+  "adapter": "gliner2",
+  "model_ref": "vladlinv/ru-pii-ner-gliner2.5",
+  "revision": "7a410193d83373e61d029944aac77ae47ffb5d9a",
+  "snapshot_sha256": "48238a57dd048f6e00b157684fc84c0dd35a8dec22b32a588084d260cd66a293",
+  "threshold": 0.7,
+  "inference_labels": ["ru_pii_person", "ru_pii_location"],
+  "label_mapping": {"ru_pii_person": "PERSON"},
+  "address_decision": "not_enabled",
+  "source_experiment_sha256": "d5bef512052402de74c499540eb91c155e60525f7ac0682e21a3ea01ebccd7df"
+}

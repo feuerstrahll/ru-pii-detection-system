@@ -1,0 +1,10 @@
+{
+  "version": "ner_benchmark_v2",
+  "entity_mapping": ["PERSON", "ADDRESS", "EMAIL", "PHONE", "SOCIAL_SECURITY_ID", "TAX_ID", "PASSPORT", "ORG_REGISTRATION_ID", "BANK_CARD", "KPP"],
+  "candidates": [
+    {"id": "deterministic_baseline", "adapter": "deterministic", "config": "configs/deterministic_v2.json"},
+    {"id": "spacy_ru_core_news_lg", "adapter": "spacy", "model_ref": "ru_core_news_lg", "label_mapping": {"PER": "PERSON"}},
+    {"id": "hf_ru_legal_ner", "adapter": "transformers", "model_ref": "LLAIMlegal/ru-legal-ner", "label_mapping": {"PER": "PERSON", "ADDRESS": "ADDRESS"}},
+    {"id": "gliner_multi_v2_1", "adapter": "gliner", "model_ref": "urchade/gliner_multi-v2.1", "labels": {"PERSON": "person", "ADDRESS": "address"}, "threshold": 0.5}
+  ]
+}

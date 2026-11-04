@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00820", "segments": [{"segment_id": "body", "text": "Адрес доставки: д. Россошь, ш. Высотное, д. 72 стр. 7, 061640"}], "entities": [{"segment_id": "body", "start": 16, "end": 61, "type": "ADDRESS"}]}

@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00967", "segments": [{"segment_id": "body", "text": "Адрес доставки: д. Сеймчан, пр. Осипенко, д. 88 к. 3, 792342"}], "entities": [{"segment_id": "body", "start": 16, "end": 60, "type": "ADDRESS"}]}

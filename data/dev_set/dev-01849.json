@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01849", "segments": [{"segment_id": "body", "text": "Адрес доставки: с. Брянск, бул. Молодежный, д. 3/4 к. 5, 512864"}], "entities": [{"segment_id": "body", "start": 16, "end": 63, "type": "ADDRESS"}]}

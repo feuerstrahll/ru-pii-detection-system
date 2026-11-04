@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00553", "segments": [{"segment_id": "body", "text": "ОГРН: 7870614972176"}], "entities": [{"segment_id": "body", "start": 6, "end": 19, "type": "ORG_REGISTRATION_ID"}]}

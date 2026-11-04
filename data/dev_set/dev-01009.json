@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01009", "segments": [{"segment_id": "body", "text": "Адрес доставки: клх Краснодар, наб. Добролюбова, д. 4 к. 5, 847166"}], "entities": [{"segment_id": "body", "start": 16, "end": 66, "type": "ADDRESS"}]}

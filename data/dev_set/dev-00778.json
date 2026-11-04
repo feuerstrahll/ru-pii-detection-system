@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00778", "segments": [{"segment_id": "body", "text": "Адрес доставки: к. Салехард, алл. Крайняя, д. 92 стр. 823, 775707"}], "entities": [{"segment_id": "body", "start": 16, "end": 65, "type": "ADDRESS"}]}

@@ -1,0 +1,35 @@
+{
+  "experiment": "SEM-NER-01",
+  "research_question": "Which pretrained semantic NER model provides the best quality-resource trade-off for PERSON and ADDRESS detection in Russian unstructured text?",
+  "dataset": "data\\dev_set",
+  "validation_document_count": 412,
+  "evaluation_document_count": 1588,
+  "preprocessing": "immutable original DocumentSegment text; no candidate-specific normalization or truncation",
+  "matching": "exact and same-label overlapping segment-local half-open spans",
+  "library_versions": {
+    "gliner": null,
+    "gliner2": null,
+    "torch": "2.12.0+cpu",
+    "transformers": "5.12.1"
+  },
+  "hardware": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.2",
+    "cpu_count": 6,
+    "execution_device": "cpu",
+    "torch_version": "2.12.0+cpu",
+    "cuda_available": false
+  },
+  "candidates": [
+    {
+      "candidate_id": "ru_pii_ner_gliner2_5",
+      "status": "unavailable",
+      "reason": "local model snapshot is missing: models\\ner\\ru_pii_ner_gliner2_5"
+    },
+    {
+      "candidate_id": "gliner_multi_v2_1",
+      "status": "unavailable",
+      "reason": "local model snapshot is missing: models\\ner\\gliner_multi_v2_1"
+    }
+  ]
+}

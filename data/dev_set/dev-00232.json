@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00232", "segments": [{"segment_id": "body", "text": "Адрес доставки: к. Можга, пр. Надежды, д. 1/7 к. 5, 743981"}], "entities": [{"segment_id": "body", "start": 16, "end": 58, "type": "ADDRESS"}]}

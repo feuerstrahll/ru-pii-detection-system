@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00862", "segments": [{"segment_id": "body", "text": "Адрес доставки: п. Волхов, ш. Специалистов, д. 624 стр. 7, 881397"}], "entities": [{"segment_id": "body", "start": 16, "end": 65, "type": "ADDRESS"}]}

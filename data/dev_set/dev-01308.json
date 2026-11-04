@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01308", "segments": [{"segment_id": "body", "text": "Паспорт: 40 13 112242"}], "entities": [{"segment_id": "body", "start": 9, "end": 21, "type": "PASSPORT"}]}

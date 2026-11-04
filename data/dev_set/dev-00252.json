@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00252", "segments": [{"segment_id": "body", "text": "Сотрудник г-н Архипов Герман Игнатович"}], "entities": [{"segment_id": "body", "start": 10, "end": 38, "type": "PERSON"}]}

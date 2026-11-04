@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00840", "segments": [{"segment_id": "body", "text": "Сотрудник Никитин Добромысл Фадеевич"}], "entities": [{"segment_id": "body", "start": 10, "end": 36, "type": "PERSON"}]}

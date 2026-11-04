@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01240", "segments": [{"segment_id": "body", "text": "Адрес доставки: г. Красноуфимск, наб. Белинского, д. 1/4 стр. 8/7, 723973"}], "entities": [{"segment_id": "body", "start": 16, "end": 73, "type": "ADDRESS"}]}

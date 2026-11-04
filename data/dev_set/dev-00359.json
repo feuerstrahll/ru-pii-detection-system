@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00359", "segments": [{"segment_id": "body", "text": "Почта: mili_16@example.net"}], "entities": [{"segment_id": "body", "start": 7, "end": 26, "type": "EMAIL"}]}

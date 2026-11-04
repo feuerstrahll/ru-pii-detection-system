@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00095", "segments": [{"segment_id": "body", "text": "Персональный token: c0b627a6566e5444d7b09bbefcfeefbb0a89de64681c2a6314e1e6e8351e3372"}], "entities": [{"segment_id": "body", "start": 20, "end": 84, "type": "TOKEN"}]}

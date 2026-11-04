@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00526", "segments": [{"segment_id": "body", "text": "Адрес доставки: д. Сочи, наб. Широкая, д. 625, 550982"}], "entities": [{"segment_id": "body", "start": 16, "end": 53, "type": "ADDRESS"}]}

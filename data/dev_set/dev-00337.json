@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00337", "segments": [{"segment_id": "body", "text": "Адрес доставки: ст. Белореченск, ул. Маяковского, д. 4 стр. 41, 833720"}], "entities": [{"segment_id": "body", "start": 16, "end": 70, "type": "ADDRESS"}]}

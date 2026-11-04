@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01765", "segments": [{"segment_id": "body", "text": "Адрес доставки: ст. Котельнич, пер. Октября, д. 253, 180638"}], "entities": [{"segment_id": "body", "start": 16, "end": 59, "type": "ADDRESS"}]}

@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01870", "segments": [{"segment_id": "body", "text": "Адрес доставки: п. Екатеринбург, ул. Индустриальная, д. 1/8, 788639"}], "entities": [{"segment_id": "body", "start": 16, "end": 67, "type": "ADDRESS"}]}

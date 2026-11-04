@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00106", "segments": [{"segment_id": "body", "text": "Адрес доставки: п. Белогорск (Амур.), алл. Халтурина, д. 1 стр. 1/5, 156466"}], "entities": [{"segment_id": "body", "start": 16, "end": 75, "type": "ADDRESS"}]}

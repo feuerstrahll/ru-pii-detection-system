@@ -1,0 +1,13 @@
+{
+  "experiment": "REDMADROBOT-FROZEN-01",
+  "dataset_repo": "redmadrobot-rnd/pii_benchmark",
+  "dataset_revision": "f77ea831274daf980cc45c61a93c226be9d978d6",
+  "test_file": "test.csv",
+  "test_sha256": "6bf544a380a3ee5bec94b946124bea3afaecce49e734679ad0f0c0e7c12977bb",
+  "deterministic_config": "configs/deterministic_v3.json",
+  "deterministic_config_sha256": "6f45b8c0ee97e199ee1d0f6309b3de880c3b4c3b990e97bd885ad2f642733050",
+  "semantic_config": "configs/semantic_person_frozen_v2.json",
+  "semantic_config_sha256": "564b7434437cbbee5dc70c80102616993b8d299570bbf2f10c68d9e58673a53d",
+  "dev_dir": "data/dev_set",
+  "scored_types": ["PERSON", "EMAIL", "PHONE", "PASSPORT", "TAX_ID", "SOCIAL_SECURITY_ID", "BANK_CARD"]
+}

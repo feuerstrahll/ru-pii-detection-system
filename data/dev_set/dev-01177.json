@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01177", "segments": [{"segment_id": "body", "text": "Адрес доставки: п. Ирбит, ш. Тульское, д. 66, 365708"}], "entities": [{"segment_id": "body", "start": 16, "end": 52, "type": "ADDRESS"}]}

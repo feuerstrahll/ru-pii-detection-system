@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-01555", "segments": [{"segment_id": "body", "text": "Адрес доставки: ст. Токсово, пер. Чехова, д. 2 стр. 47, 607548"}], "entities": [{"segment_id": "body", "start": 16, "end": 62, "type": "ADDRESS"}]}

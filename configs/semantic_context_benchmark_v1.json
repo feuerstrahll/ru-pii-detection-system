@@ -1,0 +1,13 @@
+{
+  "version": "semantic_context_benchmark_v1",
+  "deterministic_config": "configs/deterministic_v3.json",
+  "semantic_model": {
+    "id": "gliner_multi_v2_1",
+    "adapter": "gliner",
+    "model_ref": "urchade/gliner_multi-v2.1",
+    "device": "cpu",
+    "context_window_characters": 64,
+    "labels": {"BANK_CARD": "bank card number", "ORG_REGISTRATION_ID": "organization registration number", "TAX_ID": "tax identification number", "PASSPORT": "passport number"},
+    "conflicting_labels": {"BANK_CARD": ["organization registration number"], "ORG_REGISTRATION_ID": ["bank card number"], "TAX_ID": ["order number"], "PASSPORT": ["order number"]}
+  }
+}

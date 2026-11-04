@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00169", "segments": [{"segment_id": "body", "text": "Адрес доставки: д. Кировск (Ленин.), наб. Титова, д. 1/8 к. 5/2, 884789"}], "entities": [{"segment_id": "body", "start": 16, "end": 71, "type": "ADDRESS"}]}

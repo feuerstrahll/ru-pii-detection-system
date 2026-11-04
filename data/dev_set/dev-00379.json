@@ -1,0 +1,1 @@
+{"tier": "dev", "document_id": "dev-00379", "segments": [{"segment_id": "body", "text": "Адрес доставки: с. Баксан, ул. Крымская, д. 2, 012843"}], "entities": [{"segment_id": "body", "start": 16, "end": 53, "type": "ADDRESS"}]}
