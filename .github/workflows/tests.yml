@@ -17,5 +17,26 @@ jobs:
           version: "0.12.21"
       - name: Install Python
         run: uv python install 3.11
+      - name: Install Tesseract and OCR languages
+        shell: pwsh
+        run: |
+          choco install tesseract --yes --no-progress
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          $languages = @{
+            eng = '7D4322BD2A7749724879683FC3912CB542F19906C83BCC1A52132556427170B2'
+            rus = 'E16E5E036CCE1D9EC2B00063CF8B54472625B9E14D893A169E2B0DEDEB4DF225'
+          }
+          New-Item -ItemType Directory -Force models/ocr | Out-Null
+          foreach ($language in $languages.Keys) {
+            $target = "models/ocr/$language.traineddata"
+            Invoke-WebRequest "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/main/$language.traineddata" -OutFile $target
+            if ((Get-FileHash $target -Algorithm SHA256).Hash -ne $languages[$language]) {
+              throw "Unexpected checksum for OCR language: $language"
+            }
+          }
+          $tesseract = Join-Path $env:ProgramFiles 'Tesseract-OCR/tesseract.exe'
+          & $tesseract --tessdata-dir models/ocr --list-langs
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          "TESSERACT_CMD=$tesseract" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding utf8
       - name: Run tests
-        run: uv run --locked --extra test --extra test-data python -m pytest -q
+        run: uv run --locked --extra test --extra test-data --extra ocr python -m pytest -q
